@@ -10,14 +10,14 @@ authors = [
 crate-type = ["lib"]
 
 [dependencies]
-serde_derive = { version = "1.0", git = "https://github.com/mesalock-linux/serde-sgx" }
+serde_derive = { version = "1.0", git = "https://github.com/KunPengRen/serde-sgx" }
 serde = { version = "1.0", git = "https://github.com/mesalock-linux/serde-sgx", features = ["derive"] }
 #rayon = "1.0.3"
 curv = { git = "https://github.com/sgx-test/curv-sgx", branch = "0.7.0-nosecp", version = "0.7", features = ["num-bigint"] }
 sgx_tstd = { rev = "v1.1.3", git = "https://github.com/apache/teaclave-sgx-sdk.git", optional = true }
 
 [dependencies.bulletproof]
-git = "https://github.com/sgx-test/bulletproofs-sgx"
+git = "https://github.com/KunPengRen/bulletproofs-sgx"
 branch = "1.1.6-sgx"
 #default-features = false
 
